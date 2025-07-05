@@ -65,7 +65,7 @@ export const Dialog: React.FC<DialogProps> = ({
         close()
       }}
       scroll="paper"
-      maxWidth="md"
+      maxWidth="lg"
       PaperComponent={StyledPaper}
       PaperProps={{
         className
