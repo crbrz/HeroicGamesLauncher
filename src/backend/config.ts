@@ -353,6 +353,7 @@ class GlobalConfigV0 extends GlobalConfig {
       enableWineWayland: false,
       enableHDR: false,
       enableWoW64: false,
+      enableFSR4Upgrade: false,
       eacRuntime: isLinux,
       battlEyeRuntime: isLinux,
       framelessWindow: false,

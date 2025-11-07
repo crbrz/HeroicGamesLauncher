@@ -209,6 +209,7 @@ export interface GameSettings {
   enableWineWayland: boolean
   enableHDR: boolean
   enableWoW64: boolean
+  enableFSR4Upgrade: boolean
   gamescope: GameScopeSettings
   enviromentOptions: EnviromentVariable[]
   ignoreGameUpdates: boolean
