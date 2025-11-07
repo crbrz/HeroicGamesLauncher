@@ -211,6 +211,7 @@ export interface GameSettings {
   enableWoW64: boolean
   enableFSR4Upgrade: boolean
   enableFSR4Indicator: boolean
+  enableNTSync: boolean
   gamescope: GameScopeSettings
   enviromentOptions: EnviromentVariable[]
   ignoreGameUpdates: boolean

@@ -355,6 +355,7 @@ class GlobalConfigV0 extends GlobalConfig {
       enableWoW64: false,
       enableFSR4Upgrade: false,
       enableFSR4Indicator: false,
+      enableNTSync: false,
       eacRuntime: isLinux,
       battlEyeRuntime: isLinux,
       framelessWindow: false,

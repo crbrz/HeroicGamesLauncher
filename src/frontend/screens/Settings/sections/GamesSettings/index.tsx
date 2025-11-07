@@ -20,6 +20,7 @@ import {
   EnableWoW64,
   EnableFSR4Upgrade,
   EnableFSR4Indicator,
+  EnableNTSync,
   EnvVariablesTable,
   GameMode,
   LauncherArgs,
@@ -194,6 +195,7 @@ export default function GamesSettings() {
             <EnableWoW64 />
             <EnableFSR4Upgrade />
             <EnableFSR4Indicator />
+            <EnableNTSync />
             <EnableMsync />
             <AdvertiseAvxForRosetta />
             <EnableFSR />
