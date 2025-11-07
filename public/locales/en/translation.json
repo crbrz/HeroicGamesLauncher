@@ -339,6 +339,7 @@
         "dxvk": "DXVK is a Vulkan-based translational layer for DirectX 9, 10 and 11 games. Enabling may improve compatibility. Might cause issues especially for older DirectX games.",
         "dxvknvapi": "DXVK-NVAPI is an implementation of NVAPI built on top of DXVK and the linux native NVAPI, it allows for the usage of DLSS on Nvidia GPUs.",
         "esync": "Esync aims to reduce wineserver overhead in CPU-intensive games. Enabling may improve performance.",
+        "fsr4-upgrade": "Supported by proton-cachyos",
         "fsync": "Fsync aims to reduce wineserver overhead in CPU-intensive games. Enabling may improve performance on supported Linux kernels.",
         "game_language": {
             "fallback": "Leave blank to use Heroic's language.",
@@ -360,6 +361,7 @@
         "general": "Sync with EGL if you have a working installation of the Epic Games Launcher elsewhere and want to import your games to avoid downloading them again.",
         "mangohud": "MangoHUD is an overlay that displays and monitors FPS, temperatures, CPU/GPU load and other system resources.",
         "msync": "Msync aims to reduce wineserver overhead in CPU-intensive games. Enabling may improve performance on supported Linux kernels.",
+        "ntsync": "Use NT synchronization system calls (supported by proton-cachyos)",
         "other": {
             "part4": "Use the ",
             "part5": "Game Arguments",
@@ -677,6 +679,8 @@
             },
             "description": "Use frameless window (requires restart)"
         },
+        "fsr4Indicator": "Enable FSR4 indicator (Proton version needs to support it)",
+        "fsr4Upgrade": "Enable FSR4 upgrade (Proton version needs to support it)",
         "FsrSharpnessStrenght": "FSR Sharpness Strength",
         "fsync": "Enable Fsync",
         "gamemode": "Use GameMode (Feral Game Mode needs to be installed)",
@@ -757,6 +761,7 @@
         "minimize-on-launch": "Minimize Heroic After Game Launch",
         "msync": "Enable Msync",
         "no-tray-icon": "Hide System Tray Icon (requires restart)",
+        "ntSync": "Enable NT sync (Proton version and Linux kernel needs to support it)",
         "offlinemode": "Run Game Offline",
         "prefered_language": "Prefered Language (Language Code)",
         "preferSystemLibs": "Prefer system libraries",
