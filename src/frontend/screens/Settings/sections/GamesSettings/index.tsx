@@ -19,6 +19,7 @@ import {
   EnableWineWayland,
   EnableWoW64,
   EnableFSR4Upgrade,
+  EnableFSR4Indicator,
   EnvVariablesTable,
   GameMode,
   LauncherArgs,
@@ -192,6 +193,7 @@ export default function GamesSettings() {
             <EnableWineWayland />
             <EnableWoW64 />
             <EnableFSR4Upgrade />
+            <EnableFSR4Indicator />
             <EnableMsync />
             <AdvertiseAvxForRosetta />
             <EnableFSR />

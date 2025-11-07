@@ -210,6 +210,7 @@ export interface GameSettings {
   enableHDR: boolean
   enableWoW64: boolean
   enableFSR4Upgrade: boolean
+  enableFSR4Indicator: boolean
   gamescope: GameScopeSettings
   enviromentOptions: EnviromentVariable[]
   ignoreGameUpdates: boolean
